@@ -41,6 +41,17 @@ img{
     padding-top: 120px;
         padding-bottom: 120px;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* Studio CSS */
 
 /* header and footer */
@@ -137,6 +148,8 @@ margin-left: auto;
     color:var(--primary-white-color);
     background-color: var(--primary-text-color) ;
     text-align: center;
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 .hero .hero-title{
        margin: 0 auto 48px auto;
@@ -272,10 +285,14 @@ background-color: var(--primary-bg-color);
 
 
 /* Portfolio CSS */
+.portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .filter{
     display: flex;
     margin-bottom: 72px;
-    margin-top: 96px;
+
     align-items: center;
     justify-content: center;
 
@@ -319,7 +336,7 @@ background-color: var(--primary-bg-color);
 .card-menu{
     display: flex;
     flex-wrap: wrap;
-        padding-bottom: 120px;
+        
 }
 
 .card-menu .item{
